@@ -1,0 +1,32 @@
+CREATE TABLE user (
+username varchar(255) NOT NULL,
+password varchar(255),
+email varchar(255),
+phone varchar(255),
+privilege varchar(255),
+PRIMARY KEY (username)
+);
+
+CREATE TABLE registry (
+propertyid INT NOT NULL AUTO_INCREMENT,
+location varchar(255),
+image varchar(255),	
+type varchar(255),
+description varchar(255),
+document varchar(255),
+map varchar(255),
+owner varchar(255),
+verification varchar(255),
+status varchar(255),
+PRIMARY KEY (propertyid),
+FOREIGN KEY (owner) REFERENCES user(username)
+);
+
+CREATE TABLE contact (
+username varchar(255),
+contacts varchar(255),
+contactid INT NOT NULL AUTO_INCREMENT,
+FOREIGN KEY (username) REFERENCES user(username),
+PRIMARY KEY (contactid)
+);
+
