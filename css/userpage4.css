@@ -1,0 +1,62 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    background-color: rgb(223, 208, 184);
+    border: solid rgb(148, 137, 121) thick;
+    border-radius: 10px;
+    margin: auto;   
+}
+
+.banner h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.registerproperty {
+    width: 800px;
+    background-color: rgb(223, 208, 184);
+    border: solid rgb(148, 137, 121) thick;
+    border-radius: 10px;
+    padding: 20px 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    width: 800px;
+    border: solid rgb(223, 208, 184) thick;
+    border-radius: 10px;
+    background-color: rgb(148, 137, 121);
+    margin: auto; 
+    display: grid;
+    grid-template-columns: auto auto;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.indivcontent {
+    border: solid rgb(223, 208, 184) thin;
+    background-color: rgb(223, 208, 184);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    transition: 0.5s;
+}
+
+.textinfo h5 {
+    margin: 0;
+}
+
+.imageinfo img {
+    width: 120px;
+    height: 120px;
+    display: block;
+    border-radius: 10px;
+    border: solid rgb(21, 52, 72) thin;
+}

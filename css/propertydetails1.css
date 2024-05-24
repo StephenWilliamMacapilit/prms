@@ -1,0 +1,30 @@
+.property {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    border: solid rgb(148, 137, 121) thick;
+    border-radius: 10px;
+    background-color: rgb(223, 208, 184);
+    margin: auto;
+}
+
+.details {
+    display: flex;
+    width: 800px;
+    border: solid rgb(148, 137, 121) thick;
+    border-radius: 10px;
+    background-color: rgb(223, 208, 184);
+    margin: auto;
+    display: flex;
+    justify-content: left;
+}
+
+.image img {
+    width: 300px;
+    border: groove black thin;
+    display: block;
+    border-radius: 10px;
+    border: solid rgb(21, 52, 72) thick;
+    margin: 10px;
+}

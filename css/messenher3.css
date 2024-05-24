@@ -1,0 +1,59 @@
+.messenger {
+    display: flex;
+    flex: 30% 70%;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 600px;
+    border: solid rgb(148, 137, 121) thick;
+    border-radius: 10px;
+    background-color: rgb(223, 208, 184);
+    margin: auto;
+}
+
+.contacts {
+    flex: 0 0 40%;
+    box-sizing: border-box;
+    border: groove black thin;
+    height: 100%;
+}
+
+.contacts form {
+    border: solid rgb(148, 137, 121) thick;
+    border-radius: 10px;
+    background-color: rgb(223, 208, 184);
+    margin: 5px 10px;
+    padding: 10px;
+}
+
+.contacts form h3 {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mail {
+    flex: 0 60%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.messages {
+    height: 570px;
+    border: groove black thin;
+    box-sizing: border-box;
+    overflow: scroll;
+}
+
+.messages p {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sned {
+    height: 30px;
+    border: groove black thin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}

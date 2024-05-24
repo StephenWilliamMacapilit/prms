@@ -1,0 +1,82 @@
+html, body {
+    background-color: rgb(21, 52, 72);
+    margin: 0;
+    padding: 0;
+}
+
+.catalog {
+    width: 700px;
+    border: solid rgb(223, 208, 184) thick;
+    border-radius: 10px;
+    background-color: rgb(148, 137, 121);
+    margin: 10px auto; 
+    display: grid;
+    grid-template-columns: auto auto;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.indivcontent {
+    border: solid rgb(223, 208, 184) thin;
+    background-color: rgb(223, 208, 184);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    transition: 0.5s;
+}
+
+.indivcontent:hover {
+    background-color: rgb(180, 170, 155);
+    border: solid rgb(21, 52, 72) thin;
+    cursor: pointer;
+}
+
+.textinfo h5 {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imageinfo img {
+    width: 120px;
+    height: 120px;
+    display: block;
+    border-radius: 10px;
+    border: solid rgb(21, 52, 72) thin;
+}
+
+.propertyoptions {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.propertyoptions a {
+    border: groove black thin;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+.log {
+    width: 700px;
+    border: solid rgb(223, 208, 184) thick;
+    border-radius: 10px;
+    background-color: rgb(148, 137, 121);
+    margin: auto; 
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.history {
+    border: solid rgb(223, 208, 184) thick;
+    border-radius: 10px;
+    background-color: rgb(223, 208, 184);
+    margin: auto; 
+    box-sizing: border-box;
+    padding: 10px;
+}

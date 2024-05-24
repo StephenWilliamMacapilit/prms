@@ -1,0 +1,80 @@
+
+
+.NavBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid rgb(148, 137, 121) thick;
+    border-left: solid rgb(148, 137, 121) thick;
+    border-right: solid rgb(148, 137, 121) thick;
+    background-color: rgb(223, 208, 184);
+    margin: 0 10%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 1px 10px;
+}
+
+.NavBarSubSection {
+    display: flex;
+    align-items: center;
+}
+
+.Logo h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    text-decoration: underline;
+    background-color: rgb(0,83,122);
+    color: rgb(255,186,66);
+    border: solid rgb(1,60,88) thick;
+    border-radius: 20px;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.Logo h1:hover {
+    color: rgb(1,60,88);
+    background-color: rgb(255,186,66);
+    border: solid rgb(0,83,122) thick;
+}
+
+.NavLinks {
+    
+}
+
+.NavLinks a {
+    text-decoration: none;
+    background-color: rgb(223, 208, 184);
+    padding: 10px;
+    color: rgb(148, 137, 121);
+    border: solid rgb(60, 91, 111) thin;
+    border-radius: 15px;
+    transition: 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    margin: 0 5px;
+}
+
+.NavLinks a:hover {
+    background-color: rgb(148, 137, 121);
+    color: rgb(223, 208, 184);
+    border: solid rgb(21, 52, 72) thin;
+}
+
+.loginregister a {
+    text-decoration: none;
+    background-color: rgb(223, 208, 184);
+    padding: 10px;
+    color: rgb(148, 137, 121);
+    border: solid rgb(60, 91, 111) thin;
+    border-radius: 15px;
+    transition: 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    margin: 0 5px;
+}
+
+.loginregister a:hover {
+    background-color: rgb(148, 137, 121);
+    color: rgb(223, 208, 184);
+    border: solid rgb(21, 52, 72) thin;
+}
